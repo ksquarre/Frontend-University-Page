@@ -259,7 +259,7 @@ header{
     border-radius: 15px;
     margin: 15px 0;
 }
-.p2 h4,p{
+.p2 h4,.p2 p{
     margin: 10px 0;
     padding: 10px 0;
 }
@@ -340,6 +340,9 @@ footer a{
 }
 
 @media screen and (max-width : 790px) {
+   
+
+/* The browsers on mobile devices ignore the overflow-x:hidden within the body and html tag if <meta name="viewport"> tag is present, thus i created a wrapper in the body tag covering the rest of my content with a overflow-x: hidden in it, solving the problem. */
     .wrap {
         overflow-x: hidden;
     }
@@ -383,6 +386,7 @@ footer a{
     }
     .cards,.img-cards{
         flex-direction: column;
+
     }
     .p1{
         width: 80%;
@@ -394,10 +398,15 @@ footer a{
         margin: 20px 0;
         min-width: 250px;
     }
-    .p2{
-        width: 60%;
+    .p2 {
+        width: 70%;
         margin: 20px 0;
         min-width: 260px;
+        
+    }
+    .p2 h4,.p2 p{
+        text-align: center;
+        
     }
     .btn{
         padding: 11px;
