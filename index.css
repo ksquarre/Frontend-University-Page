@@ -340,6 +340,9 @@ footer a{
 }
 
 @media screen and (max-width : 790px) {
+    html, body {
+        overflow-x: hidden;
+    }
     .banner h1,.banner p{
         width: 400px;
         font-size: 20px;
