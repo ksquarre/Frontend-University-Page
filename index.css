@@ -404,9 +404,12 @@ footer a{
 }
 
 @media screen and (max-width : 520px){
-    .banner h1,p{
+    .banner h1,.banner p{
         width: 280px;
         font-size: 20px;
+    }
+    .banner p{
+        font-size: 10px;
     }
     .navbar img{
         width: 120px;

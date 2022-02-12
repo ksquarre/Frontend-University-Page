@@ -9,6 +9,6 @@ btn1.addEventListener('click',(e)=>{
 })
 btn2.addEventListener('click',(e)=>{
 
-    menu.style.right='-200px'
+    menu.style.right='-800px'
    
 })
